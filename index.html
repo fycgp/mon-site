@@ -20,17 +20,16 @@
       <li role="none">
         <a href="#" role="menuitem" tabindex="0">Accueil</a>
       </li>
-  <br />
-  <br />
-  <br />
-  <br />
-  <ul>
-  <div style="text-align:left">
-    <li>github</li>
-    <li>Déveloper.mozilla.org </li>
-    <li>colorexa</li> 
-  </div>
-  </ul>
+       <li class="has-sub" role="none">
+        <button class="menu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-1">
+          Produits
+        </button>
+        <ul id="submenu-1" class="submenu" role="menu" aria-hidden="true">
+          <li role="none"><a role="menuitem" tabindex="-1" href="#">Produit A</a></li>
+          <li role="none"><a role="menuitem" tabindex="-1" href="#">Produit B</a></li>
+          <li role="none"><a role="menuitem" tabindex="-1" href="#">Produit C</a></li>
+        </ul>
+      </li>
   </span>
 </body>
 </html>
